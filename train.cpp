@@ -92,7 +92,7 @@ vector<Wagon> Train::uncouple(size_t from) {
         wagonliste = temp;
         return disconnected;
     } else {
-        throw runtime_error("Fuck off");
+        throw runtime_error("err");
     }
 }
 
